@@ -1,0 +1,497 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css");
+/*All / common--------*/
+
+body {
+    min-height: 1200px;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.common_margin {
+    margin: 17px 0;
+}
+
+.cmn_margin {
+    margin-bottom: 50px;
+}
+
+.common_dot {
+    width: 290px;
+    border: 2px dashed white;
+    margin-bottom: 40px;
+
+}
+
+.common_title {
+    font-family: 'Dosis', sans-serif;
+    margin-top: 100px;
+
+}
+
+/*-----------------*/
+
+header {
+    background-color: #FFD338;
+
+}
+
+.picture {}
+
+.custom_header {
+    padding: 0px;
+}
+
+.custom_nav {
+    font-size: 23px;
+
+}
+
+.custom_nav ul li a {
+    padding: 0px 30px;
+
+}
+
+.custom_nav ul li:hover a {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+
+}
+
+.coustom_drop {}
+
+.coustom_drop a {
+    background-color: transparent !important;
+    border: none;
+}
+
+.show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none !important;
+}
+
+.btn-secondary:focus {
+    box-shadow: none !important;
+}
+
+
+/*banner start----------------------*/
+
+.banner {
+    min-height: 800px;
+    background-image: url(../images/clouds.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.banner_title {
+    margin: 339px 0px;
+    text-shadow: 0px 4px 3px #FFD338;
+    font-family: cursive;
+
+}
+
+.scroll {}
+
+/*Kid education one-----------------------*/
+
+.kid_study {
+    transition: .3s;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 4px solid #71CCF8;
+    
+}
+
+.kid_study:hover {
+    box-shadow: 0 0 5px 3px;
+
+}
+
+.discovery_btn {
+    margin: 13px 0px;
+
+}
+
+/*kid education two------------------------*/
+
+#kid_education_two {
+    min-height: 515px;
+    background-image: url(../images/kid_education_two.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.education_two_img {
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 0 1px 5px 2px;
+    transition: .5s;
+}
+
+.education_two_img:hover {
+    transform: scale3d(1.1);
+    box-shadow: 0px 0px 17px 8px grey;
+    border: 1px solid #1EC0FF;
+
+}
+
+.education_two_img_content {
+    padding-top: 26px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.dash {
+    min-height: 10px;
+}
+
+/*card-----------------------------*/
+
+.card_header {
+    background-color: #1EC0FF;
+    min-height: 39px;
+
+}
+
+
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    margin: 7px 0;
+    border: none;
+    border-radius: 28px;
+    box-shadow: 0 1px 8px 3px #d4d4d5;
+    cursor: pointer;
+
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: -12px;
+}
+
+.card-title {
+    padding: 7px 0;
+
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.profile {
+    position: absolute;
+    top: -18px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    border-radius: 50%;
+    right: 21px;
+
+}
+
+.profile-avatar {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+
+.profile-inline ~ .card-title {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
+
+
+
+/*---------------------------*/
+
+.featured_course_btn {
+    width: 90%;
+    min-height: 43px;
+    font-size: 31px;
+    margin: 46px 48px;
+    border: none;
+    border-radius: 23px;
+    font-weight: 700;
+    background-color: #1EC0FF;
+    color: white;
+
+}
+
+/*------------Memorible momment----*/
+
+#memorible_moment {
+    background-image: url(../images/memorible_background.jpg);
+    min-height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.custom_momment_nav {
+    color: white !important;
+}
+
+.memorible_img {
+    margin: 25px 0;
+    border-radius: 14px;
+    box-shadow: 0px 1px 7px 1px black;
+    position: relative;
+    z-index: 1;
+
+}
+
+.view_more {
+    margin: 75px 0;
+}
+
+
+
+/*Stand by strat---------------*/
+
+.stand_by {
+    min-height: 1200px;
+    background-image: url(../images/stand_by_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.twitter {}
+
+.twitter_logo {
+    padding-top: 100px;
+    padding-bottom: 11px;
+}
+
+.twitter_link {}
+
+.stand_by_picture {
+    margin: 25px 0;
+    border-radius: 13px;
+    box-shadow: 0 0 7px 2px darkgrey;
+
+}
+
+.stand_by_details {
+    margin-top: 22px;
+}
+
+.stand_by_details p {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+
+}
+
+.stand_by_title {}
+
+.stand_by_title h3 {}
+
+.follow_me {
+    color: black;
+    text-decoration: underline;
+}
+
+.icon_color_fb {
+    color: blue;
+}
+
+.icon_color_twit {}
+
+.icon_color_google {
+    color: red;
+}
+
+.icon_color_tumblr {
+    color: darkblue;
+}
+
+/*achievement start--------------------*/
+
+.achievement {
+    min-height: 400px;
+    background-image: url(../images/we_did.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.we_did_title {
+    color: #56D47E;
+    text-shadow: 0 5px 12px;
+    cursor: progress;
+}
+
+.achieve {
+    color: white;
+    cursor: -webkit-grab;
+}
+
+
+/*RECENT TIMELINE----------------------*/
+
+.recent_timeline {
+    min-height: 892px;
+
+}
+
+.event_details {
+    margin-top: 26px;
+}
+
+
+.event_commn_color {
+    color: #1EC0FF;
+
+}
+
+.recent_news_underScore {
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.recent_news_cmn_margin {
+    margin: 10px 0;
+}
+
+.recent_news_cmn_img_shadw {
+    box-shadow: 0 0 7px 2px darkgrey;
+    border-radius: 12px;
+}
+
+
+/*CONTACT START-----------------------*/
+
+/*
+.opssite_cloud{
+    position: absolute;
+    
+}
+*/
+
+.contact {
+    min-height: 600px;
+    background-image: url(../images/oposite_cloud.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contact_content {
+    margin-top: 200px;
+}
+
+.contact_title {}
+
+.contact_title h3 {
+    font-weight: 900;
+    text-shadow: 0px 2px 7px;
+}
+
+.contact_title p {
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    margin-bottom: 34px;
+}
+
+/*footer start----------------*/
+
+footer {
+    min-height: 57px;
+    background-color: #FFD338;
+    overflow: hidden;
+}
+
+.footer_nav {}
+
+.footer_nav ul {}
+
+.footer_nav ul li {
+    list-style: none;
+    float: left;
+}
+
+.footer_nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
